@@ -13,12 +13,11 @@ Make sure you have the following installed on your system:
 
 Kotlin
 Any compatible IDE (e.g., IntelliJ IDEA)
-Installation
-Clone the repository:
 
-sh
-Copy code
-git clone https://github.com/your-username/simple-bank-account-app.git
+Installation:
+
+Clone the repository: git clone https://github.com/your-username/simple-bank-account-app.git
+
 Open the project in your preferred IDE.
 
 Build the project to ensure all dependencies are resolved.
@@ -29,11 +28,10 @@ To run the bank account program, use the following command in your IDE:
 
 Open the BankMain.kt file.
 Click the run button or use the appropriate command for your IDE.
+
 Example
 Here is an example of how to use the bank account system:
 
-kotlin
-Copy code
 package com.rtee.bankaccountapp
 
 fun main() {
@@ -54,9 +52,9 @@ fun main() {
     sarahsBankAccount.displayTransactionHistory()
     sarahsBankAccount.acctBalance()
 }
-BankAccount.kt
-kotlin
-Copy code
+
+BankAccount.kt: 
+
 package com.rtee.bankaccountapp
 
 class BankAccount(var accountHolder: String, var balance: Double) {
@@ -87,6 +85,7 @@ class BankAccount(var accountHolder: String, var balance: Double) {
         println("$accountHolder's current balance is $$balance")
     }
 }
+
 Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
