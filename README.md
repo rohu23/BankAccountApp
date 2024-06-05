@@ -16,7 +16,7 @@ Any compatible IDE (e.g., IntelliJ IDEA)
 
 Installation:
 
-Clone the repository: git clone https://github.com/your-username/simple-bank-account-app.git
+Clone the repository: git clone https://github.com/rohu23/BankAccountApp.git
 
 Open the project in your preferred IDE.
 
